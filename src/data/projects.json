@@ -1,0 +1,46 @@
+[{
+    "title": "EIA automated data collection",
+    "summary": "EIA Bulk Data Collector is a Python library designed to interact with the U.S. Energy Information Administration (EIA) API to collect bulk energy-related data for analysis and research purposes. This library simplifies the process of fetching, organizing, and processing large datasets from the EIA API and even provides the option of storing to a database.",
+    "features":  "\n## Features\n- Collect bulk data from the EIA API\n- Automatically handle API requests and rate limits\n- Parse and store data in JSON(limited), DataFrames, Databases.\n- Support for all publicly available EIA API data.\n- Easy-to-use interface for querying and downloading data\n- Extensive error catching for ease of use.",
+    "image": "/images/databaseandcode.png",
+    "link": "https://github.com/CasFre4/EIA-bulk",
+    "skills": ["Python", "SQL", "API", "Pandas"],
+    "projectType": "cs"
+},
+{
+  "title": "Projects Website Template",
+  "summary": "Projects Website Template is a simple React template for organizing and displaying personal projects. ",
+  "features": "## Features\n- Displays personal projects in a concise way.\n- Easy to modify, requiring only the modification of the json file in the data folder.",
+  "image": "/images/projectjson0.png",
+  "link": "https://github.com/CasFre4/website-template",
+  "skills": ["JavaScript", "React"],
+  "projectType": "cs"
+},
+{
+  "title": "ChartMe",
+  "summary": "ChartMe is a TypeScript library designed to take in an image and turn it into a chart while also providing customization options.",
+  "features": "## Features\n- Recoloring images using proximity to color.\n- Filtering a processed image to filter for outliers.\n- Saving and loading preprocessed graph data.\n- Recoloring following same colored segments.",
+  "image": "/images/reddragonchart.png",
+  "link": "https://github.com/CasFre4/ChartMe",
+  "skills": ["JavaScript", "d3"],
+  "projectType": "cs"
+},
+{
+  "title": "send-email-worker",
+  "summary": "The send-email-worker is a simple api that powers a contact form so that anyone can contact me through the form on my website. This script is designed for cloudflare workers.",
+  "features": "## Features\n- Backend for website contact form.",
+  "image": "/images/send-email-worker.png",
+  "link": "https://github.com/CasFre4/send-email-worker.git",
+  "skills": ["JavaScript", "cloudflare"],
+  "projectType": "cs"
+},
+{
+  "title": "pyproton",
+  "summary": "Lightweight protonvpn python library.",
+  "features": "## Features\n- connect to server \n- disconenct\n- reconnect\n- logout/login",
+  "image": "/images/vpn.webp",
+  "link": "https://github.com/CasFre4/pyproton.git",
+  "skills": ["Python"],
+  "projectType": "cs"
+}
+]

@@ -1,0 +1,34 @@
+{
+  "name": "nates-website",
+  "homepage": "",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx --yes http-server dist -p 3000",
+    "lint": "eslint .",
+    "deploy": "git add . && git commit -m \"deploying\" && git push -u origin"
+  },
+  "dependencies": {
+    "chartme": "^0.0.13",
+    "next": "^15.3.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^25.0.9",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.15.0",
+    "tsx": "^4.20.3",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1"
+  }
+}
